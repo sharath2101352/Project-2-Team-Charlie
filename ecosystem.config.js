@@ -1,7 +1,7 @@
 module.exports = {
   apps : [{
     name: "nutritionguide",
-    script: "start ./bin/www",
+    script: "./bin/www",
 	instances : "1",
 	exec_mode : "cluster",
     env: {
