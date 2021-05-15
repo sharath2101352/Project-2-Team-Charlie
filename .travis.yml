@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- 10.19.0
+services: mongodb
+install: npm install --save-dev
+script:
+
+- npm test
+- npm run lint:node
+- npm run lint:browser  
+- npm run init
+
+
